@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>Inputs</title>
+	<title>Pickers</title>
 
 	<link rel="stylesheet" href="../dist/input.css" />
 	<link rel="stylesheet" href="../dist/autocomplete.css" />
@@ -27,35 +27,26 @@
 
 
 	<div class="container" id="inputs">
-		<legend>Input / Autocomplete / Token</legend>
-		<input type="text" class="w20p form-control" />
-		<input type="text" class="w20p form-control" />
-		<input type="text" class="w20p form-control focused" />
-		<input type="text" class="w20p form-control" disabled="disabled" />
+		<legend>Date / Time / DateTime</legend>
+		<span class="w20p input-group"><input type="text" class="form-control" /><span class="input-group-addon dropdown-toggle"></span></span>
+		<span class="w20p input-group"><input type="text" class="form-control" /><span class="input-group-addon dropdown-toggle"></span></span>
+		<span class="w20p input-group"><input type="text" class="form-control focused" /><span class="input-group-addon dropdown-toggle"></span></span>
+		<span class="w20p input-group"><input type="text" class="form-control" disabled="disabled" /><span class="input-group-addon dropdown-toggle"></span></span>
 		<hr />
-		<input type="text" class="w20p k-textbox" />
-		<input type="text" class="w20p k-textbox k-state-hover" />
-		<input type="text" class="w20p k-textbox k-state-focus" />
-		<input type="text" class="w20p k-textbox k-disabled" />
+		<span class="w20p k-datepicker"><span class="k-picker-wrap"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-datepicker"><span class="k-picker-wrap k-state-hover"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-datepicker"><span class="k-picker-wrap k-state-active"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-datepicker"><span class="k-picker-wrap k-dsiabled"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
 		<hr />
-		<span class="w20p k-autocomplete"><input type="text" class="k-input" /></span>
-		<span class="w20p k-autocomplete k-state-hover"><input type="text" class="k-input" /></span>
-		<span class="w20p k-autocomplete k-state-focus"><input type="text" class="k-input" /></span>
-		<span class="w20p k-autocomplete k-disabled"><input type="text" class="k-input" /></span>
+		<span class="w20p k-timepicker"><span class="k-picker-wrap"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-timepicker"><span class="k-picker-wrap k-state-hover"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-timepicker"><span class="k-picker-wrap k-state-active"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-timepicker"><span class="k-picker-wrap k-dsiabled"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
 		<hr />
-		<div class="w20p k-multiselect">
-			<div class="k-multiselect-wrap k-floatwrap">
-				<ul class="k-reset">
-					<li class="k-button"><span>Item</span><span class="k-select"><span class="k-icon k-i-close"></span></span></li>
-					<li class="k-button k-state-hover"><span>Item</span><span class="k-select"><span class="k-icon k-i-close"></span></span></li>
-				</ul>
-				<input style="width: 25px;" class="k-input" />
-				<span class="k-icon k-loading k-loading-hidden"></span>
-			</div>
-		</div>
-		<span class="w20p k-multiselect k-state-hover"><input type="text" class="k-input" /></span>
-		<span class="w20p k-multiselect k-state-focus"><input type="text" class="k-input" /></span>
-		<span class="w20p k-multiselect k-disabled"><input type="text" class="k-input" /></span>
+		<span class="w20p k-datetimepicker"><span class="k-picker-wrap"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-datetimepicker"><span class="k-picker-wrap k-state-hover"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-datetimepicker"><span class="k-picker-wrap k-state-active"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
+		<span class="w20p k-datetimepicker"><span class="k-picker-wrap k-dsiabled"><input type="text" class="k-input" /><span class="k-select"><span class="k-icon k-i-arrow-s"></span></span></span></span>
 	</div>
 
 
