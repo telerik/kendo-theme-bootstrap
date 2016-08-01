@@ -23,8 +23,8 @@ gulp.task("sass", function() {
 });
 
 gulp.task("minify", ["sass"], function() {
-    return gulp.src('dist/*.css')
-        .pipe($.minifyCss())
+    return gulp.src('dist/main.css')
+        .pipe($.cleanCss())
         .pipe($.rename({suffix: '.min'}))
         .pipe(gulp.dest('dist'))
 });
