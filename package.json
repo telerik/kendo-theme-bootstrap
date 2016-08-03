@@ -10,17 +10,14 @@
   "main": "src/main.scss",
   "typings": "src/main.d.ts",
   "scripts": {
-    "build": "node ./node_modules/gulp/bin/gulp.js sass"
+    "start": "webpack --watch",
+    "build": "webpack --optimize-minimize && rm dist/main.js"
   },
   "author": "Progress",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@telerik/kendo-common-tasks": "^1.8.2",
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4-dev",
-    "browser-sync": "^2.10.0",
-    "gulp": "^3.9.0",
-    "gulp-load-plugins": "^1.1.0",
-    "gulp-clean-css": "^2.0.12",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.0"
+    "browser-sync-webpack-plugin": "^1.1.2"
   }
 }
