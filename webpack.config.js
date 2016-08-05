@@ -1,5 +1,22 @@
-var path = require('path');
-var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const path = require('path');
+
+function BrowserSync() {
+    this.bs = require("browser-sync").create('bs-refresh');
+    this.bs.init({
+        open: false,
+        proxy: 'http://localhost:8080/',
+        port: 3000,
+        host: '0.0.0.0'
+    });
+}
+BrowserSync.prototype = {
+    apply: function(compiler) {
+        compiler.plugin("emit", (compilation, callback) => {
+            this.bs.reload("main.css");
+            callback();
+        });
+    }
+};
 
 module.exports = require('@telerik/kendo-common-tasks')
     .webpackThemeConfig({ extract: true }, {
@@ -8,19 +25,11 @@ module.exports = require('@telerik/kendo-common-tasks')
             main: './src/main.js'
         },
         plugins: [
-            new BrowserSyncPlugin({
-                watchOptions: {
-                    ignored: '**/*.js'
-                },
-                server: true,
-                open: false,
-                host: '0.0.0.0',
-                port: 3000
-            })
+            new BrowserSync()
         ],
         output: {
-            publicPath: './dist/',
-            path: './dist/',
+            path: path.resolve(__dirname, 'dist'),
+            publicPath: '/dist/',
             filename: '[name].js'
         }
     });
