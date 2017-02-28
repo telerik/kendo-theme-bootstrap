@@ -35,8 +35,8 @@ $panel-padding-y: $card-spacer-y !default;
 $popup-padding-x: 0 !default;
 $popup-padding-y: $dropdown-padding-y !default;
 
-$header-padding-x: $card-spacer-x !default;
-$header-padding-y: $card-spacer-y !default;
+$header-padding-x: $padding-x !default;
+$header-padding-y: $padding-y !default;
 
 $form-line-height: $btn-line-height !default;
 $form-line-height-em: $form-line-height * 1rem !default;
