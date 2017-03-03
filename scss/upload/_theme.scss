@@ -14,7 +14,24 @@
     .k-upload-files .k-file-progress {
         color: $alert-info-text;
 
-        .k-progress { background-color: $alert-info-bg; }
+        .k-file-extension-wrapper,
+        .k-multiple-files-extension-wrapper {
+            //color: $alert-info-text;
+            //border-color: $alert-info-text;
+        }
+
+        .k-file-extension-wrapper::before,
+        .k-multiple-files-extension-wrapper::before {
+            //background-color: $bg-color;
+            //border-color: transparent transparent $alert-info-text $alert-info-text;
+        }
+
+        .k-multiple-files-extension-wrapper::after {
+            //border-top-color: $alert-info-text;
+            //border-left-color: $alert-info-text;
+        }
+
+        .k-progress { background-color: $alert-info-text; }
     }
     .k-upload-files .k-file-success {
         color: $alert-success-text;
@@ -25,6 +42,61 @@
         color: $alert-danger-text;
 
         .k-progress { background-color: $alert-danger-bg; }
+    }
+
+    .k-file-success .k-file-name {
+        color: $alert-success-text;
+    }
+
+    .k-file-success .k-progress {
+        background-color: purple;
+    }
+
+    .k-file-error .k-file-name {
+        //color: blue;
+    }
+
+    .k-file-error .k-progress,
+    .k-file-invalid .k-progress {
+        background-color: $alert-danger-text;
+    }
+
+    .k-file-invalid .k-file-name-invalid {
+        color: $alert-danger-text;
+    }
+
+    .k-file-invalid-extension-wrapper,
+    .k-multiple-files-invalid-extension-wrapper {
+        color: $alert-danger-text;
+        border-color: $alert-danger-text;
+    }
+
+    .k-file-extension-wrapper,
+    .k-multiple-files-extension-wrapper {
+        color: $button-border;
+        border-color: $button-border;
+    }
+
+    .k-file-extension-wrapper::before,
+    .k-multiple-files-extension-wrapper::before {
+        background-color: $bg-color;
+        border-color: transparent transparent $button-border $button-border;
+    }
+
+    .k-file-invalid-extension-wrapper::before,
+    .k-multiple-files-invalid-extension-wrapper::before {
+        background-color: $bg-color;
+        border-color: transparent transparent  $alert-danger-text  $alert-danger-text;
+    }
+
+    .k-multiple-files-extension-wrapper::after {
+        border-top-color: $button-border;
+        border-left-color: $button-border;
+    }
+
+    .k-multiple-files-invalid-extension-wrapper::after {
+        border-top-color:  $alert-danger-text;
+        border-left-color:  $alert-danger-text;
     }
 
 }
