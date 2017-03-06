@@ -244,11 +244,11 @@ $node-selected-gradient: none !default;
 $list-item-text: $node-text !default;
 $list-item-bg: $node-bg !default;
 
-$list-item-hovered-text: $node-hovered-text !default;
-$list-item-hovered-bg: $node-hovered-bg !default;
+$list-item-hovered-text: $dropdown-link-hover-color !default;
+$list-item-hovered-bg: $dropdown-link-hover-bg !default;
 
-$list-item-selected-text: $node-selected-text !default;
-$list-item-selected-bg: $node-selected-bg !default;
+$list-item-selected-text: $dropdown-link-active-color !default;
+$list-item-selected-bg: $dropdown-link-active-bg !default;
 
 $list-item-focused-shadow: none;
 
