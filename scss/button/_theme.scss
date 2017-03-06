@@ -54,6 +54,11 @@
         // Default button
         .k-button {
 
+            &:focus,
+            &.k-state-focus {
+                z-index: 2;
+            }
+
             // Active
             &:active,
             &.k-state-active {
@@ -64,6 +69,7 @@
                 }
             }
         }
+
     }
 
 }
