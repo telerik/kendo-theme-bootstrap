@@ -131,8 +131,8 @@ $widget-border: $border-color !default;
 
 // Panel
 $panel-text: $widget-text !default;
-$panel-bg: $widget-bg !default;
-$panel-border: $widget-border !default;
+$panel-bg: $card-bg !default;
+$panel-border: $card-border-color !default;
 
 
 // Popup
@@ -143,13 +143,13 @@ $popup-border: $panel-border !default;
 
 // Header
 $header-text: $base-text !default;
-$header-bg: darken( $base-bg, 3 ) !default;
-$header-border: $base-border !default;
+$header-bg: $card-cap-bg !default;
+$header-border: $card-border-color !default;
 $header-gradient: none !default;
 
 $header-hovered-text: $header-text !default;
 $header-hovered-bg: darken( $header-bg, 10% ) !default;
-$header-hovered-border: darken( $header-border, 12 ) !default;
+$header-hovered-border: $header-border !default;
 $header-hovered-gradient: none !default;
 
 $header-selected-text: $selected-text !default;
