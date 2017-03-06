@@ -171,9 +171,9 @@ $button-hovered-border: darken( $button-border, 12% ) !default;
 $button-hovered-gradient: none !default;
 $button-hovered-shadow: $btn-box-shadow !default;
 
-$button-pressed-text: $button-text !default;
-$button-pressed-bg: darken( $button-bg, 17% ) !default;
-$button-pressed-border: darken( $button-border, 25% ) !default;
+$button-pressed-text: $button-hovered-text !default;
+$button-pressed-bg: $button-hovered-bg !default;
+$button-pressed-border: $button-hovered-border !default;
 $button-pressed-gradient: none !default;
 $button-pressed-shadow: $btn-active-box-shadow !default;
 
@@ -191,9 +191,9 @@ $primary-button-hovered-bg: darken( $primary-button-bg, 10% ) !default;
 $primary-button-hovered-border: darken( $primary-button-border, 12% ) !default;
 $primary-button-hovered-gradient: none !default;
 
-$primary-button-pressed-text: $primary-button-text !default;
-$primary-button-pressed-bg: darken( $primary-button-bg, 17% ) !default;
-$primary-button-pressed-border: darken( $primary-button-border, 25% ) !default;
+$primary-button-pressed-text: $primary-button-hovered-text !default;
+$primary-button-pressed-bg: $primary-button-hovered-bg !default;
+$primary-button-pressed-border: $primary-button-hovered-border !default;
 $primary-button-pressed-gradient: none !default;
 
 $primary-button-focused-shadow: 0 0 0 2px rgba($primary-button-border, .5);
