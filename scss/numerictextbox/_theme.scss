@@ -32,6 +32,7 @@
             @include appearance( pressed-button );
         }
 
-    }
+        .k-link-increase > .k-icon { transform: translateY($button-padding-y / 4); }
 
+    }
 }
