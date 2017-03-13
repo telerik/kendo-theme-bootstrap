@@ -1,16 +1,1 @@
 @import "~@progress/kendo-theme-default/scss/upload/theme";
-
-@include exports("upload/theme") {
-    .k-dropzone {
-        .k-upload-status {
-            >.k-icon {
-                margin-right: $padding-y;
-            }
-        }
-    }
-
-    .k-file-invalid-icon {
-        margin-left: $padding-x-sm / 2;
-    }
-
-}
