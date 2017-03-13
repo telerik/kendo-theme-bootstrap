@@ -292,10 +292,10 @@ $progress-bg: $progress-bg !default;
 $progress-border: transparent !default;
 $progress-gradient: none !default;
 
-$progress-selected-text: $progress-bar-color !default;
-$progress-selected-bg:  $progress-bar-bg !default;
-$progress-selected-border: transparent !default;
-$progress-selected-gradient: none !default;
+$progress-fill-text: $progress-bar-color !default;
+$progress-fill-bg:  $progress-bar-bg !default;
+$progress-fill-border: transparent !default;
+$progress-fill-gradient: none !default;
 
 
 // Chart
