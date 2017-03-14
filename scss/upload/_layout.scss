@@ -1,6 +1,6 @@
-$dropzone-upload-status-icon-margin: $padding-y !default;
-$upload-status-margin: 0 !default;
-$file-name-margin: 0 !default;
-$invalid-icon-margin: $padding-x-sm / 2 !default;
+$upload-dropzone-status-icon-spacing: $padding-y !default;
+$upload-status-spacing: 0 !default;
+$upload-file-name-spacing: 0 !default;
+$upload-invalid-icon-spacing: $padding-x-sm / 2 !default;
 
 @import "~@progress/kendo-theme-default/scss/upload/layout";
