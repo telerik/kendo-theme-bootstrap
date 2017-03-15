@@ -1,13 +1,13 @@
 ---
 title: Customization
-description: "Refer to the list of the Kendo UI Bootstrap theme variables available for customization."
-slug: variables_kendothemebootstrap_kendouiforangular
+description: "Refer to the list of the Kendo UI Default theme variables available for customization."
+slug: variables_kendothemedefault_kendouiforangular
 position: 9
 ---
 
 # Customization
 
-The following list describes the theme variables available for adjustment in the Kendo UI Bootstrap theme for Angular.
+The following list describes the theme variables available for adjustment in the Kendo UI Default theme for Angular.
 
 <style>
 .theme-variables th,
@@ -457,7 +457,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$chart-major-lines</td>
 <td>
     
-    darken( $widget-border, 30% )
+    rgba(0, 0, 0, .08)
 </td>
 <td>The color of the Chart grid lines (major).
 </td>
@@ -466,7 +466,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$chart-minor-lines</td>
 <td>
     
-    darken( $widget-border, 20% )
+    rgba(0, 0, 0, .04)
 </td>
 <td>The color of the Chart grid lines (minor).
 </td>
