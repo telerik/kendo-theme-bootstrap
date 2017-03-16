@@ -1,7 +1,7 @@
 ---
 title: Customization
 description: "Refer to the list of the Kendo UI Default theme variables available for customization."
-slug: variables_kendothemedefault_kendouiforangular
+slug: variables_kendothemebootstrap_kendouiforangular
 position: 9
 ---
 
@@ -515,4 +515,4 @@ Used to provide contrast between the background and foreground colors.
 
 * [Styling Overview]({% slug themesandstyles_kendouiforangular %})
 * [Web Font Icons]({% slug icons_kendouiforangular %})
-* [Preview of the Themed Components]({% slug preview_kendothemedefault_kendouiforangular %})
+* [Preview of the Themed Components]({% slug preview_kendothemebootstrap_kendouiforangular %})
