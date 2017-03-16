@@ -1,13 +1,13 @@
 ---
 title: Customization
-description: "Refer to the list of the Kendo UI Default theme variables available for customization."
+description: "Refer to the list of the Kendo UI Bootstrap theme variables available for customization."
 slug: variables_kendothemebootstrap_kendouiforangular
 position: 9
 ---
 
 # Customization
 
-The following list describes the theme variables available for adjustment in the Kendo UI Default theme for Angular.
+The following list describes the theme variables available for adjustment in the Kendo UI Bootstrap theme for Angular.
 
 <style>
 .theme-variables th,
@@ -491,7 +491,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$toolbar-padding-x</td>
 <td>
     
-    $table-cell-padding
+    $table-cell-padding / 2
 </td>
 <td>The horizontal padding of the container.
 </td>
@@ -500,7 +500,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$toolbar-padding-y</td>
 <td>
     
-    $table-cell-padding
+    $table-cell-padding / 2
 </td>
 <td>The vertical padding of the container.
 </td>
