@@ -2,15 +2,15 @@
 
 * [Overview](#overview)
 * [Installation](#installation)
-* [Customization](#customization)
+* [Custom builds](#custom-builds)
 * [Troubleshooting](#troubleshooting)
 * [Under the Hood](#under-the-hood)
 
 ## Overview
 
-The Kendo UI Bootstrap Theme is a Bootstrap v4-based theme for the Kendo UI components.
+The **Kendo UI Bootstrap Theme** is a theme for the Kendo UI components, based on version 4 of the Twitter Bootstrap framework.
 
-It uses the same variables as Bootstrap to achieve **mostly** the same appearance and size.
+It uses the variables defined in Bootstrap to style and size the components, so that they blend in with the surrounding page.
 
 Currently, the Bootstrap theme is available for the following suites:  
 
@@ -23,7 +23,7 @@ Currently, the Bootstrap theme is available for the following suites:
 1. Run the `npm install` command to install the build dependencies.
 1. Run the `npm run build` command to build the CSS.
 
-## Customization
+## Custom builds
 
 The handling of all variables happens in the [`_bootstrap-map.scss`](src/_bootstrap-map.scss) file. It loads the Bootstrap variables from the default location. For example, `node_modules/bootstrap/scss/_variables.scss`.
 
@@ -31,11 +31,7 @@ If you have a customized version of Bootstrap, specify the location in `_bootstr
 
 ## Troubleshooting
 
-Since Bootstrap is loaded as an NPM module that points directly to the [Bootstrap v4 branch](https://github.com/twbs/bootstrap/tree/v4-dev), something might break after an update.
-
-**Solution**
-
-If a mapped variable breaks, patch it directly in `_bootstrap-map.scss`. If an explicit variable breaks, patch all files. In either case, you can open an issue.
+Since Bootstrap v4 is still in beta, its variables may change between releases. Make sure to use the version [specified in the peer dependencies](package.json) of the package.
 
 ## Under the Hood
 
