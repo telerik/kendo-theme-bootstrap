@@ -38,3 +38,12 @@ Since Bootstrap v4 is still in beta, its variables may change between releases. 
 To ensure a certain level of compatibility, the Bootstrap variables are mapped locally. This also enables Kendo UI to use an ad-hoc micro framework based on primitive components. For example, [button](src/mixins/appearance/_button.scss), [input](src/mixins/appearance/_input.scss), [node](src/mixins/appearance/_node.scss), and so on.
 
 However, some variables, such as `$tooltip-arrow-width` that is used in the tooltip, are not mapped. They are referenced explicitly because they do not fit within the previously mentioned framework.
+
+## Contribution
+
+We accept contributions from the public.
+
+Before you pose your suggestions, please make sure that you:
+
+1. Read and sign the [Kendo UI for Angular Contribution License Agreement (CLA)](goo.gl/forms/dXc1RaE8le6rVZ0h1). The CLA confirms that you acknowledge the legal aspects of your contributions.
+2. Submit a Pull Request.
