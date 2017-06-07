@@ -53,15 +53,6 @@
         th.k-sorted {
             background-color: $grid-sorted-bg;
         }
-
-        .k-rtl & {
-            th,
-            td {
-                .k-checkbox {
-                    margin-right: 7px;
-                }
-            }
-        }
     }
 
 
@@ -94,6 +85,7 @@
         }
 
         .k-sort-order {
+            font-size: ($icon-size * .75);
             margin-left: -4px;
             line-height: 1;
             vertical-align: text-top;
