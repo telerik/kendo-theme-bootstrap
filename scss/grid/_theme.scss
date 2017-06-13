@@ -53,6 +53,10 @@
         th.k-sorted {
             background-color: $grid-sorted-bg;
         }
+
+        .k-dirty {
+            border-color: currentColor transparent transparent currentColor;
+        }
     }
 
 
@@ -91,8 +95,8 @@
             vertical-align: text-top;
             margin-top: 2px;
         }
-
     }
+
     .k-grid-footer {
         @include appearance( header );
     }
