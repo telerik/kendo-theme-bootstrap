@@ -1,5 +1,12 @@
-Kendo UI (http://www.telerik.com/kendo-ui)
+# Kendo UI for Angular
 
-Copyright 2017 Telerik AD. All rights reserved.
+This package is part of the [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/) suite.
 
-Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/license-agreement/kendo-ui-complete. If you do not own a commercial license, this file shall be governed by the Apache License, Version 2.0 (http://www.apache.org/licenses/).
+## License
+
+**IMPORTANT** This is not free software. You must agree to the [Telerik End User License Agreement for Kendo UI Complete
+](http://www.telerik.com/purchase/license-agreement/kendo-ui-complete) in order to use it.
+
+If you do not own a commercial license, the use of this product shall be governed by the trial license terms.
+
+Kendo UI commercial licenses may be obtained at [http://www.telerik.com/purchase/kendo-ui](http://www.telerik.com/purchase/kendo-ui).
