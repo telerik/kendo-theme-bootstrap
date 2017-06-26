@@ -1,6 +1,11 @@
-# Kendo UI for Angular
+# Kendo UI Bootstrap Theme
 
-This package is part of the [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/) suite.
+This package is part of the following suites:
+
+* [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/)
+* [Kendo UI for jQuery](http://www.telerik.com/kendo-ui)
+* [UI for ASP.NET MVC](http://www.telerik.com/aspnet-mvc)
+* [UI for ASP.NET Core](http://www.telerik.com/aspnet-core-ui)
 
 ## License
 
