@@ -20,9 +20,11 @@ This package is part of the following suites:
 * [UI for ASP.NET MVC](http://www.telerik.com/aspnet-mvc)
 * [UI for ASP.NET Core](http://www.telerik.com/aspnet-core-ui)
 
-The suites are distributed as commercial software and are subject to copyright.
+All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui.
 
-All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui. If you do not own a commercial license, the usage of this software shall be governed by the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+If you do not own a commercial license, the usage of this software shall be governed by the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+*Copyright © 2017 Telerik AD. All rights reserved.*
 
 ## Installation
 
