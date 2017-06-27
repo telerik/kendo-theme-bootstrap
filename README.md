@@ -1,6 +1,7 @@
 # Kendo UI Bootstrap Theme
 
 * [Overview](#overview)
+* [License](#license)
 * [Installation](#installation)
 * [Custom Builds](#custom-builds)
 * [Troubleshooting](#troubleshooting)
@@ -8,15 +9,20 @@
 
 ## Overview
 
-The **Kendo UI Bootstrap Theme** is a theme for the Kendo UI components, based on version 4 of the Twitter Bootstrap framework.
+The Kendo UI Bootstrap Theme is a theme for the Kendo UI components, based on the Twitter Bootstrap framework, version 4. It uses the variables defined in Bootstrap to style and size the components, so that they blend in with the surrounding page.
 
-It uses the variables defined in Bootstrap to style and size the components, so that they blend in with the surrounding page.
+## License
 
-Currently, the Bootstrap theme is available for the following suites:  
+This package is part of the following suites:
 
-* Kendo UI for React.
-* Kendo UI for Angular.
-* Kendo UI for jQuery.
+* [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/)
+* [Kendo UI for jQuery](http://www.telerik.com/kendo-ui)
+* [UI for ASP.NET MVC](http://www.telerik.com/aspnet-mvc)
+* [UI for ASP.NET Core](http://www.telerik.com/aspnet-core-ui)
+
+The suites are distributed as commercial software and are subject to copyright.
+
+All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui. If you do not own a commercial license, the usage of this software shall be governed by the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 ## Installation
 
