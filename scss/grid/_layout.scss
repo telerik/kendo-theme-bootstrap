@@ -1,3 +1,19 @@
 $edit-cell-input-space: 0 !default;
+$grid-button-border-width: 1px !default;
+$grid-cell-button-height-difference: (((($table-cell-padding * 2) + $line-height-base) - (($button-padding-y * 2) + $form-line-height)) / 2) !default;
+$grid-form-component-offset: calc(#{$grid-cell-button-height-difference} + #{$grid-button-border-width}) !default;
 
 @import "~@progress/kendo-theme-default/scss/grid/layout";
+
+.k-grid {
+    .k-grid-edit-row td > .k-input,
+    .k-grid-edit-row td > .k-widget,
+    .k-command-cell > .k-button,
+    .k-edit-cell > .k-input,
+    .k-edit-cell > .k-widget {
+        margin-top: calc(#{$grid-form-component-offset} * -1);
+        margin-bottom: calc(#{$grid-form-component-offset}  * -1);
+        vertical-align: top;
+
+    }
+}
