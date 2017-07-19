@@ -119,6 +119,10 @@
     }
     .k-grid-footer {
         @include appearance( header );
+
+        .k-grid-footer-locked {
+            border-color: inherit;
+        }
     }
 
 

@@ -161,7 +161,7 @@ $warning: $brand-warning !default;
 /// The color for informational messages and states.
 $error: $brand-danger !default;
 
-$invalid-border-color: $error !default;
+$invalid-border: $error !default;
 
 $gradient-transparent-to-black: rgba( black, 0), black;
 $gradient-transparent-to-white: rgba( white, 0), white;
@@ -454,3 +454,6 @@ $chart-area-opacity: .8 !default;
 $icon-size: 16px;
 $icon-size-lg: 32px;
 $icon-spacing: ($spacer / 2) !default;
+
+// import any default values from kendo-theme-default
+@import "~@progress/kendo-theme-default/scss/variables";
