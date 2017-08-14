@@ -124,9 +124,9 @@ $bg-color: $body-bg !default;
 $border-color: darken( $bg-color, 12% ) !default;
 
 /// The text color of the components' chrome area.
-$base-text: red; //$btn-secondary-color !default;
+$base-text: white !default;
 /// The background of the components' chrome area.
-$base-bg: red; //$btn-secondary-bg !default;
+$base-bg: theme-color("secondary") !default;
 /// The border color of the components' chrome area.
 $base-border: darken( $base-bg, 12% ) !default;
 /// The gradient background of the components' chrome area.
@@ -266,7 +266,7 @@ $button-focused-shadow: 0 0 0 2px rgba($button-border, .5) !default;
 
 
 // Primary button
-$primary-button-text: color-yiq(theme-color("primary")) !default;
+$primary-button-text: color-wcag(theme-color("primary")) !default;
 $primary-button-bg: theme-color("primary") !default;
 $primary-button-border: theme-color("primary") !default;
 $primary-button-gradient: none !default;
@@ -372,18 +372,18 @@ $grid-hovered-border: $grid-border !default;
 
 
 // Notification
-$notification-info-bg: theme-color-level($info, -10) !default;
-$notification-info-text: theme-color-level($info, 6) !default;
-$notification-info-border: theme-color-level($info, -9) !default;
-$notification-success-bg: theme-color-level($success, -10) !default;
-$notification-success-text: theme-color-level($success, 6) !default;
-$notification-success-border: theme-color-level($success, -9) !default;
-$notification-warning-bg: theme-color-level($warning, -10) !default;
-$notification-warning-text: theme-color-level($warning, 6) !default;
-$notification-warning-border: theme-color-level($warning, -9) !default;
-$notification-error-bg: theme-color-level($error, -10) !default;
-$notification-error-text: theme-color-level($error, 6) !default;
-$notification-error-border: theme-color-level($error, -9) !default;
+$notification-info-bg: theme-color-level("info", -10) !default;
+$notification-info-text: theme-color-level("info", 6) !default;
+$notification-info-border: theme-color-level("info", -9) !default;
+$notification-success-bg: theme-color-level("success", -10) !default;
+$notification-success-text: theme-color-level("success", 6) !default;
+$notification-success-border: theme-color-level("success", -9) !default;
+$notification-warning-bg: theme-color-level("warning", -10) !default;
+$notification-warning-text: theme-color-level("warning", 6) !default;
+$notification-warning-border: theme-color-level("warning", -9) !default;
+$notification-error-bg: theme-color-level("danger", -10) !default;
+$notification-error-text: theme-color-level("danger", 6) !default;
+$notification-error-border: theme-color-level("danger", -9) !default;
 
 
 // Window
