@@ -110,7 +110,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$base-text</td>
 <td>
     
-    $btn-secondary-color
+    white
 </td>
 <td>The text color of the components' chrome area.
 </td>
@@ -119,7 +119,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$base-bg</td>
 <td>
     
-    $btn-secondary-bg
+    theme-color("secondary")
 </td>
 <td>The background of the components' chrome area.
 </td>
@@ -218,7 +218,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$success</td>
 <td>
     
-    $brand-success
+    theme-color("success")
 </td>
 <td>The color for error messages and states.
 </td>
@@ -227,7 +227,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$info</td>
 <td>
     
-    $brand-info
+    theme-color("info")
 </td>
 <td>The color for warning messages and states.
 </td>
@@ -236,7 +236,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$warning</td>
 <td>
     
-    $brand-warning
+    theme-color("warning")
 </td>
 <td>The color for success messages and states.
 </td>
@@ -245,7 +245,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$error</td>
 <td>
     
-    $brand-danger
+    theme-color("danger")
 </td>
 <td>The color for informational messages and states.
 </td>
