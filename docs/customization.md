@@ -90,7 +90,7 @@ The following table lists the available variables for customizing the Bootstrap 
 <td>$accent</td>
 <td>
     
-    $component-active-bg
+    theme-color("primary")
 </td>
 <td>The color that focuses the user attention.<br/>
 Used for primary buttons and for elements of primary importance across the theme.
@@ -100,7 +100,7 @@ Used for primary buttons and for elements of primary importance across the theme
 <td>$accent-contrast</td>
 <td>
     
-    $component-active-color
+    contrast-wcag( $accent )
 </td>
 <td>The color used along with the accent color denoted by $accent.<br/>
 Used to provide contrast between the background and foreground colors.
@@ -267,15 +267,6 @@ Used to provide contrast between the background and foreground colors.
 <th>Description</th>
 </tr>
 <tr>
-<td>$button-text</td>
-<td>
-    
-    $base-text
-</td>
-<td>The text color of the buttons.
-</td>
-</tr>
-<tr>
 <td>$button-bg</td>
 <td>
     
@@ -285,10 +276,19 @@ Used to provide contrast between the background and foreground colors.
 </td>
 </tr>
 <tr>
+<td>$button-text</td>
+<td>
+    
+    contrast-wcag( $button-bg )
+</td>
+<td>The text color of the buttons.
+</td>
+</tr>
+<tr>
 <td>$button-border</td>
 <td>
     
-    darken( $base-border, 8 )
+    $button-bg
 </td>
 <td>The border color of the buttons.
 </td>
@@ -303,28 +303,28 @@ Used to provide contrast between the background and foreground colors.
 </td>
 </tr>
 <tr>
-<td>$button-hovered-text</td>
-<td>
-    
-    $button-text
-</td>
-<td>The text color of hovered buttons.
-</td>
-</tr>
-<tr>
 <td>$button-hovered-bg</td>
 <td>
     
-    darken( $button-bg, 10% )
+    darken( $button-bg, 7.5% )
 </td>
 <td>The background of hovered buttons.
+</td>
+</tr>
+<tr>
+<td>$button-hovered-text</td>
+<td>
+    
+    contrast-wcag( $button-hovered-bg )
+</td>
+<td>The text color of hovered buttons.
 </td>
 </tr>
 <tr>
 <td>$button-hovered-border</td>
 <td>
     
-    darken( $button-border, 12% )
+    darken( $button-border, 10% )
 </td>
 <td>The border color of hovered buttons.
 </td>
@@ -339,21 +339,21 @@ Used to provide contrast between the background and foreground colors.
 </td>
 </tr>
 <tr>
-<td>$button-pressed-text</td>
-<td>
-    
-    $button-hovered-text
-</td>
-<td>The text color of pressed buttons.
-</td>
-</tr>
-<tr>
 <td>$button-pressed-bg</td>
 <td>
     
     $button-hovered-bg
 </td>
 <td>The background color of pressed buttons.
+</td>
+</tr>
+<tr>
+<td>$button-pressed-text</td>
+<td>
+    
+    $button-hovered-text
+</td>
+<td>The text color of pressed buttons.
 </td>
 </tr>
 <tr>
@@ -378,7 +378,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$button-focused-shadow</td>
 <td>
     
-    0 0 0 2px rgba($button-border, .5)
+    0 0 0 3px rgba($button-border, .5)
 </td>
 <td>The shadow of focused buttons.
 </td>
