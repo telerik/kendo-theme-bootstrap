@@ -113,11 +113,11 @@ $rgba-transparent: rgba( 0, 0, 0, 0 );
 // Theme colors
 /// The color that focuses the user attention.
 /// Used for primary buttons and for elements of primary importance across the theme.
-$accent: $component-active-bg !default;
+$accent: theme-color("primary") !default;
 
 /// The color used along with the accent color denoted by $accent.
 /// Used to provide contrast between the background and foreground colors.
-$accent-contrast: $component-active-color !default;
+$accent-contrast: contrast-wcag( $accent ) !default;
 
 $text-color: $body-color !default;
 $bg-color: $body-bg !default;
