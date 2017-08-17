@@ -123,28 +123,28 @@ $text-color: $body-color !default;
 $bg-color: $body-bg !default;
 $border-color: darken( $bg-color, 12% ) !default;
 
-/// The text color of the components' chrome area.
-$base-text: white !default;
 /// The background of the components' chrome area.
 $base-bg: theme-color("secondary") !default;
+/// The text color of the components' chrome area.
+$base-text: contrast-wcag( $base-bg ) !default;
 /// The border color of the components' chrome area.
 $base-border: darken( $base-bg, 12% ) !default;
 /// The gradient background of the components' chrome area.
 $base-gradient: none !default;
 
-/// The text color of hovered items.
-$hovered-text: $base-text !default;
 /// The background of hovered items.
 $hovered-bg: darken( $base-bg, 3% ) !default;
+/// The text color of hovered items.
+$hovered-text: $base-text !default;
 /// The border color of hovered items.
 $hovered-border: darken( $base-border, 12% ) !default;
 /// The gradient background of hovered items.
 $hovered-gradient: none !default;
 
-/// The text color of selected items.
-$selected-text: $accent-contrast !default;
 /// The background of selected items.
 $selected-bg: $accent !default;
+/// The text color of selected items.
+$selected-text: contrast-wcag( $selected-bg ) !default;
 /// The border color of selected items.
 $selected-border: darken( $selected-bg, 12% ) !default;
 /// The gradient background of selected items.
