@@ -107,21 +107,21 @@ Used to provide contrast between the background and foreground colors.
 </td>
 </tr>
 <tr>
-<td>$base-text</td>
-<td>
-    
-    white
-</td>
-<td>The text color of the components' chrome area.
-</td>
-</tr>
-<tr>
 <td>$base-bg</td>
 <td>
     
     theme-color("secondary")
 </td>
 <td>The background of the components' chrome area.
+</td>
+</tr>
+<tr>
+<td>$base-text</td>
+<td>
+    
+    contrast-wcag( $base-bg )
+</td>
+<td>The text color of the components' chrome area.
 </td>
 </tr>
 <tr>
@@ -143,21 +143,21 @@ Used to provide contrast between the background and foreground colors.
 </td>
 </tr>
 <tr>
-<td>$hovered-text</td>
-<td>
-    
-    $base-text
-</td>
-<td>The text color of hovered items.
-</td>
-</tr>
-<tr>
 <td>$hovered-bg</td>
 <td>
     
     darken( $base-bg, 3% )
 </td>
 <td>The background of hovered items.
+</td>
+</tr>
+<tr>
+<td>$hovered-text</td>
+<td>
+    
+    $base-text
+</td>
+<td>The text color of hovered items.
 </td>
 </tr>
 <tr>
@@ -179,21 +179,21 @@ Used to provide contrast between the background and foreground colors.
 </td>
 </tr>
 <tr>
-<td>$selected-text</td>
-<td>
-    
-    $accent-contrast
-</td>
-<td>The text color of selected items.
-</td>
-</tr>
-<tr>
 <td>$selected-bg</td>
 <td>
     
     $accent
 </td>
 <td>The background of selected items.
+</td>
+</tr>
+<tr>
+<td>$selected-text</td>
+<td>
+    
+    contrast-wcag( $selected-bg )
+</td>
+<td>The text color of selected items.
 </td>
 </tr>
 <tr>
