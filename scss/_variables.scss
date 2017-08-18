@@ -124,11 +124,11 @@ $bg-color: $body-bg !default;
 $border-color: darken( $bg-color, 12% ) !default;
 
 /// The background of the components' chrome area.
-$base-bg: theme-color("secondary") !default;
+$base-bg: $card-cap-bg !default;
 /// The text color of the components' chrome area.
-$base-text: contrast-wcag( $base-bg ) !default;
+$base-text: $body-color !default;
 /// The border color of the components' chrome area.
-$base-border: darken( $base-bg, 12% ) !default;
+$base-border: $card-border-color !default;
 /// The gradient background of the components' chrome area.
 $base-gradient: none !default;
 
@@ -212,7 +212,7 @@ $header-selected-gradient: none !default;
 
 /// The background of the buttons.
 /// @group buttons
-$button-bg: $base-bg !default;
+$button-bg: theme-color("secondary") !default;
 
 /// The text color of the buttons.
 /// @group buttons
