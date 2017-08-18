@@ -110,7 +110,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$base-bg</td>
 <td>
     
-    theme-color("secondary")
+    $card-cap-bg
 </td>
 <td>The background of the components' chrome area.
 </td>
@@ -119,7 +119,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$base-text</td>
 <td>
     
-    contrast-wcag( $base-bg )
+    $body-color
 </td>
 <td>The text color of the components' chrome area.
 </td>
@@ -128,7 +128,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$base-border</td>
 <td>
     
-    darken( $base-bg, 12% )
+    $card-border-color
 </td>
 <td>The border color of the components' chrome area.
 </td>
@@ -270,7 +270,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$button-bg</td>
 <td>
     
-    $base-bg
+    theme-color("secondary")
 </td>
 <td>The background of the buttons.
 </td>
