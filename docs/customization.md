@@ -110,7 +110,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$base-bg</td>
 <td>
     
-    $card-cap-bg
+    darken( $body-bg, 3% )
 </td>
 <td>The background of the components' chrome area.
 </td>
@@ -128,7 +128,7 @@ Used to provide contrast between the background and foreground colors.
 <td>$base-border</td>
 <td>
     
-    $card-border-color
+    darken( $base-bg, 3% )
 </td>
 <td>The border color of the components' chrome area.
 </td>
