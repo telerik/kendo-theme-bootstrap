@@ -293,9 +293,9 @@ $toolbar-gradient: none !default;
 
 
 // Input
-$input-text: colors("gray") !default;
-$input-bg: $body-bg !default;
-$input-border: $button-border !default;
+$input-text: $input-color !default;
+$input-bg: $input-bg !default;
+$input-border: $input-border-color !default;
 $input-shadow: none !default;
 
 $input-hovered-text: $input-text !default;
