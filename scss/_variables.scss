@@ -371,6 +371,18 @@ $grid-hovered-text: $grid-text !default;
 $grid-hovered-bg: $table-hover-bg !default;
 $grid-hovered-border: $grid-border !default;
 
+//Pager
+$pager-text: $pagination-color !default;
+$pager-bg: $pagination-bg !default;
+$pager-border: $pagination-border-color !default;
+
+$pager-hover-text: $pagination-hover-color !default;
+$pager-hover-bg: $pagination-hover-bg !default;
+$pager-hover-border: $pagination-hover-border-color !default;
+
+$pager-selected-text: $pagination-active-color !default;
+$pager-selected-bg: $pagination-active-bg !default;
+$pager-selected-border: $pagination-active-border-color !default;
 
 // Notification
 $notification-info-bg: theme-color-level("info", -10) !default;
