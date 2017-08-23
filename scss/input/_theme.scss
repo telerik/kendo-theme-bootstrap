@@ -98,10 +98,15 @@
         &:not(:disabled) + .k-checkbox-label:hover::before {}
 
         // Checked
-        &:checked + .k-checkbox-label::before {
-            color: $checkbox-checked-text;
-            border-color: $checkbox-checked-border;
-            background-color: $checkbox-checked-bg;
+        &:checked + .k-checkbox-label {
+            &::before {
+                border-color: $checkbox-checked-border;
+                background-color: $checkbox-checked-bg;
+            }
+
+            &:after {
+                color: $checkbox-checked-text;
+            }
         }
 
         // Indeterminate
