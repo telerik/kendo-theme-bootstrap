@@ -124,11 +124,11 @@ $bg-color: $body-bg !default;
 $border-color: darken( $bg-color, 12% ) !default;
 
 /// The background of the components' chrome area.
-$base-bg: $card-cap-bg !default;
+$base-bg: darken( $body-bg, 3% ) !default;
 /// The text color of the components' chrome area.
 $base-text: $body-color !default;
 /// The border color of the components' chrome area.
-$base-border: $card-border-color !default;
+$base-border: darken( $base-bg, 3% ) !default;
 /// The gradient background of the components' chrome area.
 $base-gradient: none !default;
 
@@ -193,8 +193,8 @@ $popup-border: $dropdown-border-color !default;
 
 // Header
 $header-text: $base-text !default;
-$header-bg: $card-cap-bg !default;
-$header-border: $card-border-color !default;
+$header-bg: $popover-header-bg !default;
+$header-border: darken( $popover-header-bg, 9 ) !default;
 $header-gradient: none !default;
 
 $header-hovered-text: $header-text !default;
