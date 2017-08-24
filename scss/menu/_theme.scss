@@ -27,7 +27,7 @@
         .k-item.k-state-hover > .k-link {
             @include appearance( hovered-list-item );
         }
-        .k-link.k-state-active {
+        .k-item .k-link.k-state-active {
             @include appearance( selected-list-item );
         }
 
