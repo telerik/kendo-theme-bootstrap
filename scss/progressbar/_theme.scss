@@ -25,8 +25,9 @@
 
         // Chunks
         > ul {}
-        .k-item {
-            border-color: $body-bg;
+
+        &.k-progressbar-horizontal .k-item {
+            border-left-width: 0;
         }
     }
 
