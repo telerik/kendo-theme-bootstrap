@@ -51,6 +51,15 @@
             line-height: $pager-buttons-size;
         }
 
+        .k-dropdown .k-dropdown-wrap {
+            color: $body-color;
+            background-color: $pager-bg;
+            border-color: $pager-border;
+
+            &.k-state-hover {
+                background-color: $pager-hover-bg;
+            }
+        }
     }
     .k-pager-numbers {
 
