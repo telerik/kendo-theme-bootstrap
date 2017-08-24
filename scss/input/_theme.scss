@@ -15,6 +15,8 @@
 
     $focused-checked-shadow: 0 0 0 1px $panel-bg, 0 0 0 3px $accent !default;
 
+    $fieldset-font-size: $h4-font-size;
+
     // Input, Textbox, Textarea
     .k-input,
     .k-textbox,
@@ -138,11 +140,6 @@
             text-transform: none;
         }
 
-        fieldset {
-            border-width: 0;
-            margin: 0;
-        }
-
         .k-form-field,
         .k-form-field:last-child {
             margin-bottom: $spacer;
@@ -189,11 +186,14 @@
     }
 
     fieldset {
-        border-color: $input-border;
+        border-width: 0;
+        margin: 0;
+        padding: 0;
     }
 
     fieldset legend {
         color: $header-text;
+        font-size: $fieldset-font-size;
     }
 
     .k-maskedtextbox .k-state-invalid + .k-i-warning{
