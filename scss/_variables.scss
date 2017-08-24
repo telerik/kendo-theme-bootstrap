@@ -102,7 +102,7 @@ $window-inner-padding-y: $modal-inner-padding !default;
 $window-titlebar-padding-x: $modal-header-padding !default;
 $window-titlebar-padding-y: $modal-header-padding !default;
 
-$progressbar-height: $progress-height;
+$progressbar-height: $progress-height !default;
 
 $zindex-popup: 1;
 $zindex-window: 2;
