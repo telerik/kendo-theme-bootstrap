@@ -27,4 +27,8 @@
 
     }
 
+    .k-state-border-down .k-select,
+    .k-state-border-up .k-select {
+        box-shadow: $button-focused-shadow;
+    }
 }
