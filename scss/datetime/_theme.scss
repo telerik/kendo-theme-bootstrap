@@ -14,6 +14,7 @@
             @include appearance( button );
             border-color: inherit;
             transition: $transition;
+            z-index: 1;
         }
 
         // Hovered state
@@ -49,6 +50,11 @@
             }
         }
 
+        [ng-reflect-is-popup-open="true"] + .k-select,
+        .k-state-border-down .k-select,
+        .k-state-border-up .k-select {
+            box-shadow: $button-focused-shadow;
+        }
     }
 
     .k-dateinput.k-state-invalid {
@@ -123,6 +129,11 @@
             &:hover {
                 @include appearance( hovered-button );
                 border-color: $input-hovered-border;
+            }
+
+            > .k-state-selected,
+            > .k-state-active {
+                box-shadow: inset $button-focused-shadow;
             }
         }
 
