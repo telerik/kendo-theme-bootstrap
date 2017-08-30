@@ -11,6 +11,10 @@
             color: rgba( $header-text, .7 );
         }
 
+        > .k-item > .k-link.k-state-active {
+            color: rgba( $header-text, .9 );
+        }
+
         > .k-item.k-state-focused > .k-link {
             box-shadow: inset 0 0 0 3px rgba( $header-text, .15 );
         }
