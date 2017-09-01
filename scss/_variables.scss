@@ -29,7 +29,7 @@ $font-size-lg: $font-size-lg !default;
 $line-height: $line-height-base !default;
 $line-height-sm: $line-height-sm !default;
 $line-height-lg: $line-height-lg !default;
-$line-height-em: $line-height * 1rem;
+$line-height-em: $line-height * 1em;
 
 
 // Metrics
@@ -59,7 +59,7 @@ $header-padding-x: $card-spacer-x !default;
 $header-padding-y: $card-spacer-y !default;
 
 $form-line-height: $input-btn-line-height !default;
-$form-line-height-em: $form-line-height * 1rem !default;
+$form-line-height-em: $form-line-height * 1em !default;
 
 $button-padding-x: $input-btn-padding-x !default;
 $button-padding-y: $input-btn-padding-y !default;
