@@ -7,7 +7,7 @@
 
         .k-header,
         .k-group-header {
-            color: lighten($header-text, 25);
+            color: $dropdown-header-color;
             font-weight: 600;
             font-size: $font-size-sm;
         }

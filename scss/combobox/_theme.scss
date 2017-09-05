@@ -11,6 +11,7 @@
         .k-select {
             @include appearance( button );
             transition: $transition;
+            box-shadow: none;
         }
 
         // Hovered state
