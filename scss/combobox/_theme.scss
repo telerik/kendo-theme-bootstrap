@@ -11,7 +11,6 @@
         .k-select {
             @include appearance( button );
             transition: $transition;
-            box-shadow: none;
         }
 
         // Hovered state
@@ -38,12 +37,6 @@
                 @include appearance( pressed-button );
                 border-color: $button-pressed-border;
             }
-        }
-
-        [ng-reflect-popup-open="true"] + .k-select,
-        .k-state-border-down .k-select,
-        .k-state-border-up .k-select {
-            box-shadow: $button-focused-shadow;
         }
 
         &[dir='rtl'],
