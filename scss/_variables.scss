@@ -194,8 +194,8 @@ $popup-border: $dropdown-border-color !default;
 
 // Header
 $header-text: $base-text !default;
-$header-bg: $popover-header-bg !default;
-$header-border: darken( $popover-header-bg, 9 ) !default;
+$header-bg: $gray-100 !default;
+$header-border: darken( $header-bg, 9 ) !default;
 $header-gradient: none !default;
 
 $header-hovered-text: $header-text !default;
