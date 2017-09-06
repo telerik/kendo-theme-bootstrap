@@ -1,12 +1,11 @@
 # Kendo UI Bootstrap Theme
 
+The Kendo UI Bootstrap Theme is a theme for the Kendo UI components which is based on the Twitter Bootstrap framework, version 4. To style and size the components and make them blend in with the surrounding page, the Bootstrap theme uses the variables defined in Bootstrap.
+
 * [License](#license)
-* [Overview](#overview)
 * [Basic Usage](#basic-usage)
-* [Installation](#installation)
-* [Customization](#customization)
-  * [Running Custom Builds](#running-custom-builds)
-  * [Applying Mapped Variables](#applying-mapped-variables)
+* [Running Custom Builds](#running-custom-builds)
+* [Applying Mapped Variables](#applying-mapped-variables)
 * [Troubleshooting](#troubleshooting)
 
 ## License
@@ -24,22 +23,15 @@ If you do not own a commercial license, the usage of this software shall be gove
 
 *Copyright © 2017 Telerik AD. All rights reserved.*
 
-## Overview
-
-The Kendo UI Bootstrap Theme is a theme for the Kendo UI components which is based on the Twitter Bootstrap framework, version 4. To style and size the components and make them blend in with the surrounding page, it uses the variables defined in Bootstrap.
-
 ## Basic Usage
 
-For more information on how to use the Bootstrap Theme in Angular projects, refer to [its introductory topic](docs/index.md).
+For more information on how to implement the Material theme in your project, refer to the following articles:
 
-## Installation
+* [Using the Bootstrap Theme in Angular Projects](http://gyoshevlnx:4000/components/styling/)
+* [Using the Bootstrap Theme in jQuery Projects](http://docs.telerik.com/kendo-ui/styles-and-layout/sass-themes)
+* [Customizing the Bootstrap Theme](https://github.com/telerik/kendo-theme-default/blob/13713a572b392806ca7c2950f77f9b033f87d8ea/README.md)
 
-1. To install the build dependencies, run the `npm install` command.
-1. To build the CSS, run the `npm run build` command.
-
-## Customization
-
-### Running Custom Builds
+## Running Custom Builds
 
 The handling of all variables happens in the [`_bootstrap-map.scss`](src/_bootstrap-map.scss) file. It loads the Bootstrap variables from the default location. For example, `node_modules/bootstrap/scss/_variables.scss`.
 
@@ -48,7 +40,7 @@ If you have a customized version of Bootstrap:
 1. Specify the location in `_bootstrap-map.scss`.
 1. Build as usual.
 
-### Applying Mapped Variables
+## Applying Mapped Variables
 
 To ensure a certain level of compatibility, the Bootstrap variables are locally mapped. This also enables Kendo UI to use an ad-hoc micro framework based on primitive components. For example, [button](src/mixins/appearance/_button.scss), [input](src/mixins/appearance/_input.scss), [node](src/mixins/appearance/_node.scss), and so on.
 
