@@ -21,6 +21,11 @@
             @include appearance( pressed-button );
         }
 
+        // Selected state
+        &.k-state-selected {
+            @include appearance( pressed-button );
+        }
+
     }
 
 
@@ -41,6 +46,11 @@
         // Active state
         &:active,
         &.k-state-active {
+            @include appearance( pressed-primary-button );
+        }
+
+        // Selected state
+        &.k-state-selected {
             @include appearance( pressed-primary-button );
         }
 
