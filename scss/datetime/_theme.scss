@@ -12,7 +12,6 @@
         }
         .k-select {
             @include appearance( button );
-            border-color: inherit;
             transition: $transition;
         }
 
@@ -22,22 +21,12 @@
 
             .k-select {
                 @include appearance( hovered-button );
-                border-color: inherit;
             }
         }
 
         // Focused state
         .k-state-focused {
             @include appearance( focused-input );
-
-            .k-select {
-                border-left-color: $button-border;
-            }
-
-            // Focused & Hovered
-            &.k-state-hovered {
-                border-left-color: $button-hovered-border;
-            }
         }
 
         // Selected state
@@ -111,17 +100,16 @@
 
     // Dateinput
     .k-dateinput {
+
         // Normal state
         .k-dateinput-wrap {
             @include appearance( input );
         }
-
         .k-select {
             @include appearance( button );
 
             &:hover {
                 @include appearance( hovered-button );
-                border-color: $input-hovered-border;
             }
         }
 
