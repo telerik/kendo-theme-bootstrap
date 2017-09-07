@@ -84,21 +84,27 @@
         border: 0;
 
         // Default button
-        .k-button {
+        .k-button {}
 
-            &:focus,
-            &.k-state-focused {
-                z-index: 2;
-            }
+        // Focused state
+        .k-button:focus,
+        .k-button.k-state-focused,
+        > input[type="radio"]:focus + .k-button,
+        > input[type="checkbox"]:focus + .k-button {
+            box-shadow: $button-focused-shadow;
+            z-index: 2;
+        }
 
-            // Active
-            &:active,
-            &.k-state-active {
+        // Selected state
+        .k-button:active,
+        .k-button.k-state-active,
+        > input[type="radio"]:checked + .k-button,
+        > input[type="checkbox"]:checked + .k-button {
+            @include appearance( pressed-button );
 
-                & + .k-button:hover,
-                & + .k-button.k-state-hover {
-                    border-left-color: $button-pressed-border;
-                }
+            & + .k-button:hover,
+            & + .k-button.k-state-hover {
+                border-left-color: $button-pressed-border;
             }
         }
 
