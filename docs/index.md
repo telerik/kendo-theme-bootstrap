@@ -9,6 +9,5 @@ position: 1
 
 The following example previews Kendo UI components for Angular styled with the Bootstrap theme.
 
-{% meta height:2300 theme:bootstrap %}
-{% embed_demo ../preview-app/ %}
-{% endmeta %}
+{% theme_preview theme:bootstrap %}
+<script async src="{% asset_path theme-preview.js %}"></script>
