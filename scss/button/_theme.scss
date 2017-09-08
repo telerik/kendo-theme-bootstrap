@@ -108,6 +108,14 @@
             }
         }
 
+        // Primary
+        .k-primary:focus,
+        .k-primary.k-state-focused,
+        > input[type="radio"]:focus + .k-primary,
+        > input[type="checkbox"]:focus + .k-primary {
+            box-shadow: $primary-button-focused-shadow;
+        }
+
     }
 
     // Bare button
