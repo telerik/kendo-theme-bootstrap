@@ -360,16 +360,16 @@ $tab-item-selected-border: $nav-tabs-link-active-border-color !default;
 
 
 // Grid
-$grid-text: inherit !default;
-$grid-bg: $table-bg !default;
+$grid-bg: $panel-bg !default;
+$grid-text: contrast-wcag( $grid-bg, $gray-900 ) !default;
 $grid-border: $table-border-color !default;
 
 $grid-alt-text: $grid-text !default;
-$grid-alt-bg: $table-accent-bg !default;
+$grid-alt-bg: rgba( $grid-alt-text, .035) !default;
 $grid-alt-border: $grid-border;
 
 $grid-hovered-text: $grid-text !default;
-$grid-hovered-bg: $table-hover-bg !default;
+$grid-hovered-bg: rgba( $grid-hovered-text, .05) !default;
 $grid-hovered-border: $grid-border !default;
 
 //Pager
