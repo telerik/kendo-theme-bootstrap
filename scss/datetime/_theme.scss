@@ -72,7 +72,20 @@
         }
     }
 
+    // Timepicker
+    .k-timepicker {}
+
+    // Datetimepicker
     .k-datetimepicker {
+
+        .k-select {
+            width: auto;
+        }
+        .k-link {
+            padding: 0;
+            width: add-three( $button-border-width, $icon-size, $button-padding-y * 2 );
+        }
+
         .k-i-warning {
             color: $error;
             right: calc( #{ button-inner-size( 2 ) } + #{ $input-padding-x-sm });
@@ -91,12 +104,6 @@
             }
         }
     }
-
-    // Timepicker
-    .k-timepicker {}
-
-    // Datetimepicker
-    .k-datetimepicker {}
 
     // Dateinput
     .k-dateinput {
