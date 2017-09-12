@@ -365,11 +365,11 @@ $grid-text: contrast-wcag( $grid-bg, $gray-900 ) !default;
 $grid-border: $table-border-color !default;
 
 $grid-alt-text: $grid-text !default;
-$grid-alt-bg: rgba( $grid-alt-text, .035) !default;
+$grid-alt-bg: rgba( $grid-alt-text, .03) !default;
 $grid-alt-border: $grid-border;
 
 $grid-hovered-text: $grid-text !default;
-$grid-hovered-bg: rgba( $grid-hovered-text, .05) !default;
+$grid-hovered-bg: rgba( $grid-hovered-text, .065) !default;
 $grid-hovered-border: $grid-border !default;
 
 //Pager
