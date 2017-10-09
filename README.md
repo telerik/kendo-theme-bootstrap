@@ -1,7 +1,3 @@
-<a href="https://www.telerik.com/kendo-angular-ui/" target="_blank">
-<img width="631" src="https://www.telerik.com/kendo-angular-ui/npm-banner.svg">
-</a>
-
 # Kendo UI Bootstrap Theme
 
 The Kendo UI Bootstrap Theme is a theme for the Kendo UI components which is based on the Twitter Bootstrap framework, version 4. To style and size the components and make them blend in with the surrounding page, the Bootstrap theme uses the variables defined in Bootstrap.
@@ -11,8 +7,6 @@ The Kendo UI Bootstrap Theme is a theme for the Kendo UI components which is bas
 * [Running Custom Builds](#running-custom-builds)
 * [Applying Mapped Variables](#applying-mapped-variables)
 * [Troubleshooting](#troubleshooting)
-* [Resources](#resources)
-* [Questions and Feedback](#questions-and-feedback)
 
 ## License
 
@@ -53,19 +47,6 @@ However, some variables, such as `$tooltip-arrow-width` which is used in the too
 ## Troubleshooting
 
 Because Bootstrap v4 is still in beta, its variables may change between releases. Make sure to use the Bootstrap version which is [specified in the peer dependencies](package.json) of the package.
-
-## Resources
-
-- [Get Started](https://www.telerik.com/kendo-angular-ui/getting-started)
-- [Component References](https://www.telerik.com/kendo-angular-ui/components)
-- [Blogs](http://www.telerik.com/blogs/kendo-ui)
-
-## Questions and Feedback
-
-- [FAQ](https://www.telerik.com/kendo-angular-ui/components/faq/)
-- [GitHub Issues](https://github.com/telerik/kendo-angular/issues)
-- [Feedback Portal](http://kendoui-feedback.telerik.com/forums/555517-kendo-ui-for-angular-2-feedback)
-- [StackOverflow](https://stackoverflow.com/questions/tagged/kendo-ui-angular2)
 
 *Copyright © 2017 Progress Software Corporation and/or its subsidiaries or affiliates. All Rights Reserved.*
 
