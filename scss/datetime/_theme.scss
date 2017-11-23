@@ -81,6 +81,10 @@
     // Timepicker
     .k-timepicker {}
 
+    .k-timeselector {
+        border-color: inherit;
+    }
+
     // Timepicker header
     .k-time-header {
         padding: $time-header-padding;
@@ -105,9 +109,7 @@
         background-color: $popup-bg;
 
         .k-title {
-            @include appearance( header );
             z-index: 12;
-            background: $popup-bg;
             opacity: $disabled-opacity;
         }
 
