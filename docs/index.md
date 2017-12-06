@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: "Preview and install the Kendo UI Bootstrap theme and style the Kendo UI components in Angular/React projects."
+description: "Preview and install the Kendo UI Bootstrap theme and style the Kendo UI components in Angular and React projects."
 slug: preview_kendothemebootstrap
 position: 1
 ---
