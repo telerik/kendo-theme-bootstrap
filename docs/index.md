@@ -29,7 +29,7 @@ The following example previews Kendo UI components which are styled with the Boo
 {% endplatform_content %}
 
 {% platform_content react %}
-{% meta theme:bootstrap %}
+{% meta height:700 theme:bootstrap %}
 {% embed_file theme-preview/main.jsx preview %}
 {% endmeta %}
 {% endplatform_content %}
