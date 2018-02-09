@@ -1,3 +1,5 @@
+## This repository has been archived.<br> Development has moved to the [`kendo-themes` monorepo](https://github.com/telerik/kendo-themes).
+
 # Kendo UI Bootstrap Theme
 
 The Kendo UI Bootstrap Theme is a theme for the Kendo UI components which is based on the Twitter Bootstrap framework, version 4. To style and size the components and make them blend in with the surrounding page, the Bootstrap theme uses the variables defined in Bootstrap.
