@@ -1,4 +1,5 @@
-## This repository has been archived.<br> Development has moved to the [`kendo-themes` monorepo](https://github.com/telerik/kendo-themes).
+## This repository has been archived.
+## Development has moved to the [`kendo-themes` repo](https://github.com/telerik/kendo-themes).
 
 # Kendo UI Bootstrap Theme
 
