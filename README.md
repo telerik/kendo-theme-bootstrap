@@ -1,4 +1,4 @@
-## This repository has been moved to the [`kendo-themes` monorepo](https://github.com/telerik/kendo-themes).
+##  This repository is no longer updated. To access the current version, refer to the [`kendo-themes` monorepo](https://github.com/telerik/kendo-themes).
 
 # Kendo UI Bootstrap Theme
 
